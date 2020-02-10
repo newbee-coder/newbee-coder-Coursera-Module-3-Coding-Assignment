@@ -1,0 +1,164 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: #fff;
+  font-family: "Oxygen", sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #7a7a78;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+
+}
+a.navbar-brand, a.nav-link {
+color:black;
+}
+a.nav-link {
+  text-align: right;
+}
+.navbar-brand h1 {
+  font-family: "Lora", serif;
+  color: #030303;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+ .navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#Menu-items {
+  background-color: #7a7a78;
+
+}
+div.Foods p {
+  position: relative;
+  clear: both;
+  float: left;
+  border-color: black;
+  border: none;
+  border-width: 1px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+.Foods {
+  position: relative;
+  border-width: 0px;
+  margin: 20px;
+  width: 29%;
+  float: left;
+  height: 210px;
+}
+div#chicken-item, div#beef-item, div#sushi-item {
+  background-color: grey;
+}
+h2 {
+  text-align: center;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+}
+
+ #sub-title {
+  text-align: center;
+} 
+
+ #nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951c49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+} 
+
+ .navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px; 
+} 
+
+
+
+
+
+
+/********** Medium devices only **********/
+@media (max-width: 991px) and (min-width: 768px) {
+  div#chicken-item {
+    position: relative;
+    width: 250px;
+    float: left;
+     }
+
+    div#beef-item {
+      position: relative;
+      width: 250px;
+      clear: both;
+      
+  }
+div#sushi-item {
+  position: relative;
+    width: 550px;
+    height: 250px;
+    margin-top: 200px;
+    clear: both; 
+  }
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+div.Foods {
+margin-top: 5px;
+margin-bottom: 5px;
+height: 30px;
+width: 350px;
+font-size: 15px;
+font-family: Verdana;
+line-height: 30px;
+display:inline-block; 
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw;
+  
+  }
+
+  #collapsable-nav a {
+   
+    font-size: 1.2em;
+  }
+  
+ ÷
+
+/* ********* Super extra small devices Only :-) (e.g., iPhone 4) ********* */
+ @media (max-width: 479px) {
+div.Foods {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+ }
