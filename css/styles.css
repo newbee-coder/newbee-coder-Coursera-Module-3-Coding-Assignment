@@ -58,7 +58,7 @@ div.Foods p {
   margin: 20px;
   width: 29%;
   float: left;
-  height: 210px;
+  /* height: 210px; */
 }
 div#chicken-item, div#beef-item, div#sushi-item {
   background-color: grey;
@@ -103,7 +103,7 @@ h2 {
 
 /********** Medium devices only **********/
 @media (max-width: 991px) and (min-width: 768px) {
-  div#chicken-item {
+  /* div#chicken-item {
     position: relative;
     width: 250px;
     float: left;
@@ -114,18 +114,18 @@ h2 {
       width: 250px;
       clear: both;
       
-  }
+  } */
 div#sushi-item {
   position: relative;
     width: 550px;
     height: 250px;
     margin-top: 200px;
     clear: both; 
-  }
+  }}
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-div.Foods {
+/* div.Foods {
 margin-top: 5px;
 margin-bottom: 5px;
 height: 30px;
@@ -134,7 +134,7 @@ font-size: 15px;
 font-family: Verdana;
 line-height: 30px;
 display:inline-block; 
-}
+} */
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
@@ -145,20 +145,41 @@ display:inline-block;
   .navbar-brand h1 {
     padding-top: 10px;
     font-size: 5vw;
-  
   }
 
   #collapsable-nav a {
-   
     font-size: 1.2em;
+  }
+
+  div#chicken-item {
+    border: 1px solid black;
+    /* margin: 10px;
+    padding: 10px; */
+    align-self: center;
+    width: 400px;
+    display: flex;
+  }
+  div#beef-item {
+    border: 1px solid black;
+    /* margin: 10px;
+    padding: 10px; */
+    align-self: center;
+    display: flex;
+  }
+  div#sushi-item {
+    border: 1px solid black;
+    /* margin: 10px;
+    padding: 10px; */
+    align-self: center;
+    display: flex;
   }
   
  ÷
 
 /* ********* Super extra small devices Only :-) (e.g., iPhone 4) ********* */
- @media (max-width: 479px) {
+ /* @media (max-width: 479px) {
 div.Foods {
     border: 1px solid black;
     margin: 10px;
     padding: 10px;
- }
+ } */
